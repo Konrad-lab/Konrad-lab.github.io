@@ -1,0 +1,34 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    background-color: var(--card-bg);
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid var(--border-color);
+}
+
+#board {
+    border: 2px solid var(--primary-color);
+    border-radius: 0.5rem;
+    background-color: var(--background-color);
+    box-shadow: 0 0 20px rgba(37, 99, 235, 0.2);
+}
+
+/* Override some main styles for better game display */
+.pacek {
+    padding-top: 80px;
+}
+
+.pacek-content {
+    max-width: 1000px;
+}
